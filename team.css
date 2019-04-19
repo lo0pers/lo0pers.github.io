@@ -1,0 +1,39 @@
+* {box-sizing: border-box;}
+
+body {
+  background: linear-gradient(white, silver);
+  min-height: 100vh;
+  margin: 0;
+}
+
+.team{
+    padding:10px ; 
+    border-radius: 1.5em; 
+    text-align:center; 
+    text-align:center;
+    margin-top:20px;
+}
+
+.widget-title {
+  font: 20px/26px Arial, sans-serif;
+  background-image: linear-gradient(#252324, #252324),
+    linear-gradient(#252324, #252324),
+    linear-gradient(#252324, #252324),
+    linear-gradient(#252324, #252324);
+
+  background-repeat: no-repeat;
+  background-size: 8px 3px;
+  background-position: top left, top right, bottom left, bottom right;
+
+  border: solid #252324;
+  /* text-align: justify; */
+  border-width: 0 3px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px 15px;
+  margin: 20px;
+}
+
+.pt{
+    /* padding-right: 25px; */
+} 
